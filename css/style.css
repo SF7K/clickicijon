@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+    height: 100vh;
+    background-color: #1e5263;
+}
+
+header {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: rgb(245, 221, 201);
+}
+
+footer {
+    position: absolute;
+    left: 38%;
+    bottom: 1%;
+}
+
+.formlog {
+    position: absolute;
+    left: 30%;
+    top: 40%;
+}
+
+label, p, footer {
+    color: white;
+}
+
+p {
+    width: 75%;
+}
+
+.logindiv {
+    position: absolute;
+    top: 1%;
+    right: 5%;
+    width: 25%;
+}
+
+header nav {
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    width: 25%;
+}
+
+.logindiv ul, header nav ul {
+    justify-content: space-around;
+}
+
+.jebaited {
+    background-image: url(../img/jebaited.png);
+}
+
+.check {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+
+.checkimg {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.faviscargot {
+    height: 200px;
+    width: 200px;
+}
+
+.forum {
+    background-image: url(../img/caraforum.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
